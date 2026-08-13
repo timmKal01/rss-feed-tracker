@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "rss-feed-tracker",
+    "title": "Blog & RSS Feed Tracker — New Posts by Feed",
+    "description": "Track new posts from any blog or news RSS/Atom feed — a competitor's blog, an industry publication, a company you're watching. Get the title, link, publish date, and summary the moment a new post goes live. For marketing, competitive intelligence, and PR teams who don't want to check feeds by hand.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

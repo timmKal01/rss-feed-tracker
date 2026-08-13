@@ -1,0 +1,33 @@
+{
+    "title": "Blog & RSS Feed Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "feedUrls": {
+            "title": "Feed URLs",
+            "type": "array",
+            "editor": "stringList",
+            "description": "RSS or Atom feed URLs (e.g. \"https://techcrunch.com/feed/\"). One lookup is billed per feed.",
+            "prefill": ["https://techcrunch.com/feed/"]
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "Only return posts published within this many days of today.",
+            "default": 7,
+            "minimum": 1,
+            "maximum": 90
+        },
+        "maxResultsPerFeed": {
+            "title": "Max posts per feed",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of posts to return per feed, most recent first.",
+            "default": 20,
+            "minimum": 1,
+            "maximum": 100
+        }
+    },
+    "required": ["feedUrls"]
+}

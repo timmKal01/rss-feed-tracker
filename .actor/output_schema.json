@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Blog & RSS Feed Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Posts",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
