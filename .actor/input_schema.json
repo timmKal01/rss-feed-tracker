@@ -8,7 +8,8 @@
             "type": "array",
             "editor": "stringList",
             "description": "RSS or Atom feed URLs (e.g. \"https://techcrunch.com/feed/\"). One lookup is billed per feed.",
-            "prefill": ["https://techcrunch.com/feed/"]
+            "prefill": ["https://techcrunch.com/feed/"],
+            "default": ["https://techcrunch.com/feed/"]
         },
         "daysBack": {
             "title": "Days back",
