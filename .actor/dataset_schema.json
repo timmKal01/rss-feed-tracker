@@ -1,0 +1,43 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "feedUrl",
+                    "title",
+                    "link",
+                    "publishedAt",
+                    "summary"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "feedUrl": {
+                        "label": "Feed URL",
+                        "format": "link"
+                    },
+                    "title": {
+                        "label": "Title",
+                        "format": "text"
+                    },
+                    "link": {
+                        "label": "Link",
+                        "format": "link"
+                    },
+                    "publishedAt": {
+                        "label": "Published at",
+                        "format": "date"
+                    },
+                    "summary": {
+                        "label": "Summary",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
