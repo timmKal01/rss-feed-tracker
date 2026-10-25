@@ -56,4 +56,3 @@ whether it has 0 or 100 matching posts.
 ## Related products
 
 - [Hacker News Mention Tracker by Keyword](https://apify.com/m_ctim/hacker-news-keyword-tracker): new mentions of a keyword, if you're watching for a topic rather than a specific source
-- [GitHub Release Tracker](https://apify.com/m_ctim/github-release-tracker): new releases for repos you depend on, a narrower feed type than general blog/news RSS
