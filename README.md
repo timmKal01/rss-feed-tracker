@@ -30,6 +30,7 @@ One record per post:
 
 ```json
 {
+  "rowType": "item",
   "feedUrl": "https://techcrunch.com/feed/",
   "title": "In a first, US will allow some private firms to carry out cyberattacks",
   "link": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/",

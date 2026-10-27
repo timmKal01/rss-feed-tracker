@@ -29,7 +29,7 @@ for (const feedUrl of feedUrls) {
     }
 
     if (posts.length > 0) {
-        await Actor.pushData(posts);
+        await Actor.pushData(posts.map((post) => ({ rowType: 'item', ...post })));
     }
     await Actor.charge({ eventName: FEED_CHECKED_EVENT });
 
